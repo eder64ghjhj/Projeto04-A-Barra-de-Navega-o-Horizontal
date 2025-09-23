@@ -1,0 +1,56 @@
+/* 1. ETILOS GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #242424;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 2. O CABEÇALHO (HEADER) - O FOCO DO NOSSO ESTUDO */
+.main-header {
+    background-color: #292929;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 3. ESTILOS DO LOGOTIPO */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0029DE;
+}
+
+/* 4. ESTILOS DA NAVEGAÇÃO (NAV) */
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #3057FF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    transition: color 0.3, border-bottom-color 0.3;
+}
+
+.main-nav a:hover {
+    color: #5A00B8;
+    border-bottom: 2px solid #5A00B8;
+}
